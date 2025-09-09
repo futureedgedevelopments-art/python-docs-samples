@@ -1,0 +1,11 @@
+# See which branch you're on
+git branch -vv
+
+# Fetch all remote branches
+git fetch origin
+
+# If your repo’s default branch is master, link it:
+git branch -u origin/master main
+
+# Or if it’s main but not tracked yet:
+git branch -u origin/main main

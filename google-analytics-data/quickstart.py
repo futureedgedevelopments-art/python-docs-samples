@@ -33,7 +33,7 @@ from google.analytics.data_v1beta.types import (
 )
 
 
-def sample_run_report(property_id="YOUR-GA4-PROPERTY-ID"):
+def sample_run_report(property_id=347647956):
     """Runs a simple report on a Google Analytics 4 property."""
     # TODO(developer): Uncomment this variable and replace with your
     #  Google Analytics 4 property ID before running the sample.
